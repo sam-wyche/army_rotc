@@ -21,7 +21,7 @@ const Footer = () => {
 
                     <div className="w-full sm:w-1/2">
                         <p className="text-gray-300 leading-7 mt-4 sm:mt-0">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!
+                        To be a U.S. Army Soldier is to be a part of the strongest fighting force in the world. You’ll spend your days training, working and serving together to protect America’s freedoms. But you’ll also have time after work for family, friends and personal interests. From recruitment to retirement, the U.S. Army provides a unique and diverse lifestyle for Soldiers.
                         </p>
 
                          <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">

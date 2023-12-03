@@ -56,7 +56,7 @@ const Hero = () => {
                             data-aos-duration="1500"
                             className="flex gap-2 text-headingColor mt-14 font-[500] text-[15px] leading-7 sm:pl-0 sm:pr-10"
                             >
-                            To be a U.S. Army Soldier is to be a part of the strongest fighting force in the world. You’ll spend your days training, working and serving together to protect America’s freedoms. But you’ll also have time after work for family, friends and personal interests. From recruitment to retirement, the U.S. Army provides a unique and diverse lifestyle for Soldiers.
+                                UC Army ROTC identifies, recruits, develops, and commissions leaders of character for tomorrow’s globally responsive, regionally engaged Army, Army Reserve, and Army National Guard; and provides support, motivation, and encouragement for local Junior ROTC programs as they develop the mentorship to future leaders.
                         </p>
                         <div className="flex items-center gap-9 mt-14">
                             <span className="text-smallTextColor text-[15px] font-[600]">
