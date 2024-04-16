@@ -51,7 +51,7 @@ const Portfolio = () => {
             <div className="flex items-center justify-between flex-wrap">
                 <div className="mb-7 sm:mb-0">
                     <h3 className="text-headingColor text-[2rem] font-[700]">
-                        Branches
+                        Learn About Branches
                     </h3>
                 </div>
 

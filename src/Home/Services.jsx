@@ -1,8 +1,8 @@
 import React from "react";
-import one from "../../assets/Images/one.png";
-import two from "../../assets/Images/two.png";
-import three from "../../assets/Images/three.png";
-import four from "../../assets/Images/four.png";
+import one from "../assets/Images/one.png";
+import two from "../assets/Images/two.png";
+import three from "../assets/Images/three.png";
+import four from "../assets/Images/four.png";
 
 const Services = () => {
     return (
@@ -98,7 +98,7 @@ const Services = () => {
                                                 <p className="text-[15px] text-black group-hover:text-white group-hover:font-[500] leading-7">
                                                     Fall Semester: Adaptive Team Leadership<br/><br/>
                                                     Spring Semester: Applied Team Leadership<br/><br/>
-                                                    Summer Semester: Fort Know, Kentucky - Cadet Summer Training
+                                                    Summer Semester: Fort Knox, Kentucky - Cadet Summer Training
                                                 </p>
                                             </div>
                                         </div>

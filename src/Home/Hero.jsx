@@ -1,6 +1,6 @@
 import React from "react";
 import CountUp from "react-countup";
-import battalion_logo from '../../assets/Images/battalion_logo.png';
+import battalion_logo from '../assets/Images/battalion_logo.png';
 
 const Hero = () => {
     const year = new Date().getFullYear();
@@ -63,23 +63,13 @@ const Hero = () => {
                                 Follow UC Army ROTC
                             </span>
                             <span>
-                                <a href="#youtube" className="text-smallTextColor text-[15px] font-[600]">
-                                    <i class="ri-youtube-line"></i>
-                                </a>
-                            </span>
-                            <span>
-                                <a href="#github" className="text-smallTextColor text-[15px] font-[600]">
-                                    <i class="ri-github-fill"></i>
-                                </a>
-                            </span>
-                            <span>
-                                <a href="#facebook" className="text-smallTextColor text-[15px] font-[600]">
-                                    <i class="ri-facebook-fill"></i>
-                                </a>
-                            </span>
-                            <span>
-                                <a href="#instagram" className="text-smallTextColor text-[15px] font-[600]">
+                                <a href="https://www.instagram.com/ucarmyrotc/" className="text-smallTextColor text-[15px] font-[600]">
                                     <i class="ri-instagram-line"></i>
+                                </a>
+                            </span>
+                            <span>
+                                <a href="https://www.facebook.com/UCArmyROTC/" className="text-smallTextColor text-[15px] font-[600]">
+                                    <i class="ri-facebook-fill"></i>
                                 </a>
                             </span>
                         </div>
@@ -119,14 +109,14 @@ const Hero = () => {
                                 Current Cadets
                             </h4>
                         </div>
-                        <div className="mb-10">
+                        {/* <div className="mb-10">
                             <h2 className="text-headingColor font-[700] text-[32px]">
                                 ∞
                             </h2>
                             <h4 className="text-headingColor font-[600] text-[18px]">
                                 Opportunities
                             </h4>
-                        </div>
+                        </div> */}
                     </div>
                     {/* ========== hero right end =========== */}
                 </div>
