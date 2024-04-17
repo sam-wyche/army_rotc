@@ -2,7 +2,7 @@ import Opportunities from "./Opportunities/Opportunities"
 import Cadre from "./Cadre/Cadre";
 import WhatIsROTC from "./WhatIsROTC";
 import Ranger from "./Ranger/Ranger"
-import AboutModal from "./AboutModal"
+// import AboutModal from "./AboutModal"
 
 export function About() {
 
