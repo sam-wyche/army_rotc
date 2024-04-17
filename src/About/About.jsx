@@ -1,8 +1,13 @@
-import Cadre from "./Cadre"
+import Opportunities from "./Opportunities/Opportunities"
+import Cadre from "./Cadre/Cadre";
+import WhatIsROTC from "./WhatIsROTC";
+import Ranger from "./Ranger/Ranger"
+import AboutModal from "./AboutModal"
 
 export function About() {
 
     return(
+        // <AboutModal />
         <>
         <section className="About id=/about">
 
@@ -43,11 +48,11 @@ export function About() {
 
 
                         {/* what is rotc */}
-                        <div className="border-2 pb-10">
-                            <h1 className="pb-5 text-headingColor font-[800] text-[1.8rem] sm:text-[30px] leading-[35px] sm:leading-[46px] mt-5">
+                        <div className="border-2 pb-0">
+                            <h1 className="pb-0 text-headingColor font-[800] text-[1.8rem] sm:text-[30px] leading-[35px] sm:leading-[0px] mt-5">
                                 What is ROTC?
                             </h1>
-                            <p>Text to explain ROTC</p>
+                            <WhatIsROTC />
                         </div>
 
 
@@ -57,43 +62,6 @@ export function About() {
                                 Cadre
                             </h1>
                             <Cadre />
-                            {/* 
-                            <div className="pb-5">
-                                <h3 className="pb-0 text-headingColor font-[800] text-[1.8rem] sm:text-[20px] leading-[35px] sm:leading-[46px] mt-0">LTC Laakso</h3>
-                                <h5 className="pb-0 text-headingColor font-[600] text-[1.8rem] sm:text-[17px] mt-0">PMS at UC</h5>
-                                {/* image
-                                <p>Bio on individual</p>
-                            </div>
-                            <div className="pb-5">
-                                <h3 className="pb-0 text-headingColor font-[800] text-[1.8rem] sm:text-[20px] leading-[35px] sm:leading-[46px] mt-0">MSG Wilkerson</h3>
-                                <h5 className="pb-0 text-headingColor font-[600] text-[1.8rem] sm:text-[17px] mt-0">SMI at UC</h5>
-                                {/* image
-                                <p>Bio on individual</p>
-                            </div>
-                            <div className="pb-5">
-                                <h3 className="pb-0 text-headingColor font-[800] text-[1.8rem] sm:text-[20px] leading-[35px] sm:leading-[46px] mt-0">MAJ Cary</h3>
-                                <h5 className="pb-0 text-headingColor font-[600] text-[1.8rem] sm:text-[17px] mt-0">XO at UC</h5>
-                                {/* image
-                                <p>Bio on individual</p>
-                            </div>
-                            <div className="pb-5">
-                                <h3 className="pb-0 text-headingColor font-[800] text-[1.8rem] sm:text-[20px] leading-[35px] sm:leading-[46px] mt-0">CPT Hinkel</h3>
-                                <h5 className="pb-0 text-headingColor font-[600] text-[1.8rem] sm:text-[17px] mt-0">___ at UC</h5>
-                                {/* image
-                                <p>Bio on individual</p>
-                            </div>
-                            <div className="pb-5">
-                                <h3 className="pb-0 text-headingColor font-[800] text-[1.8rem] sm:text-[20px] leading-[35px] sm:leading-[46px] mt-0">SFC Yagherlerhner</h3>
-                                <h5 className="pb-0 text-headingColor font-[600] text-[1.8rem] sm:text-[17px] mt-0">MS3 Instructor at UC</h5>
-                                {/* image
-                                <p>Bio on individual</p>
-                            </div>
-                            <div className="pb-5">
-                                <h3 className="pb-0 text-headingColor font-[800] text-[1.8rem] sm:text-[20px] leading-[35px] sm:leading-[46px] mt-0">SFC Lian</h3>
-                                <h5 className="pb-0 text-headingColor font-[600] text-[1.8rem] sm:text-[17px] mt-0">___ at UC</h5>
-                                {/* image
-                                <p>Bio on individual</p>
-                            </div> */}
                         </div>
 
 
@@ -103,18 +71,7 @@ export function About() {
                                 Cadet Summer Opportunities
                             </h1>
                             {/* Modal Style */}
-                            <h3 className="text-center text-[1.25rem] font-[600] text-black">
-                                Airborne
-                            </h3>
-                            <h3 className="text-center text-[1.25rem] font-[600] text-black">
-                                Air Assault
-                            </h3>
-                            <h3 className="text-center text-[1.25rem] font-[600] text-black">
-                                CTLT
-                            </h3>
-                            <h3 className="text-center text-[1.25rem] font-[600] text-black">
-                                Project Go
-                            </h3>
+                            <Opportunities />
                         </div>
 
 
@@ -123,6 +80,7 @@ export function About() {
                             <h1 className="pb-5 text-headingColor font-[800] text-[1.8rem] sm:text-[30px] leading-[35px] sm:leading-[46px] mt-5">
                                 Ranger Challenge
                             </h1>
+                            <Ranger />
                             <div>
                                 <div>
                                     {/* Top Image */}

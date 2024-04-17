@@ -1,8 +1,8 @@
-import Laakso from "../assets/Images/Laakso.jpeg"
-import Cary from "../assets/Images/Cary.jpeg"
-import Hinkle from "../assets/Images/Hinkle.jpeg"
-import Yegerlehner from "../assets/Images/Yegerlehner.jpeg"
-import infantry from "../assets/Images/infantry.jpeg"
+import Laakso from "../../assets/Images/Laakso.jpeg"
+import Cary from "../../assets/Images/Cary.jpeg"
+import Hinkle from "../../assets/Images/Hinkle.jpeg"
+import Yegerlehner from "../../assets/Images/Yegerlehner.jpeg"
+import infantry from "../../assets/Images/infantry.jpeg"
 
 const CadreData = [
   {
