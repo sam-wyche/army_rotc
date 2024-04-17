@@ -1,10 +1,7 @@
 import React, {useRef, useEffect} from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-//import HistoryPage from "../Pages/HistoryPage";
 import Home from "../../Home/Home"
 import About from "../../About/About";
-import CadetResources from "../../Cadet Resources/CadetResources"
-import Newsletter from "../../Newsletter/Newsletter"
 import Branches from "../Pages/BranchesPage"
 import Contact from "../Pages/Contact"
 
@@ -74,19 +71,7 @@ const Header = () => {
                                         <Link to="/about" className="text-headerTextColor font-[600]">About</Link>     
                                     </li>
                                     <li>
-                                        <Link to="/cadetresources" className="text-headerTextColor font-[600]">Cadet Resources</Link> 
-                                    </li>
-                                    <li>
-                                        <Link to="/newsletter" className="text-headerTextColor font-[600]">Newsletter</Link> 
-                                    </li>
-                                    <li>
                                         <Link to="/branches" className="text-headerTextColor font-[600]">Branches</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/contact" className="text-headerTextColor font-[600]">FAQ</Link> 
-                                    </li>
-                                    <li>
-                                        <Link to="/contact" className="text-headerTextColor font-[600]">Contact</Link> 
                                     </li>
                                 </ul>
                             </nav>
@@ -94,8 +79,6 @@ const Header = () => {
                                 <Routes>
                                     <Route path= "/" element={Home} />
                                     <Route path= "/about" element={About} />
-                                    <Route path= "/cadetresources" element={CadetResources} />
-                                    <Route path= "/newsletter" element={Newsletter} />
                                     <Route path = "/branches" element={Branches} />
                                     <Route path = "/contact" element={Contact} />
                                 </Routes>

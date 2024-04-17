@@ -24,50 +24,22 @@ const Footer = () => {
                         To be a U.S. Army Soldier is to be a part of the strongest fighting force in the world. You’ll spend your days training, working and serving together to protect America’s freedoms. But you’ll also have time after work for family, friends and personal interests. From recruitment to retirement, the U.S. Army provides a unique and diverse lifestyle for Soldiers.
                         </p>
 
-                         <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">
-                            <span className="text-gray-300 font-[600] text-[15px]">
-                                Follow UC Army ROTC:
+                        <div className="flex items-center gap-9 mt-14">
+                            <span className="text-white text-[15px] font-[600]">
+                                Follow UC Army ROTC
                             </span>
-
-                            <span className="w-[35px] rounded-[50px] cursor-pointer text-center">
-                                <a href="#youtube" className="text-gray-300 font-[500] text-[18px]">
-                                    <i class="ri-youtube-line"></i>
-                                </a>
-                            </span>
-                            <span className="w-[35px] rounded-[50px] cursor-pointer text-center">
-                                <a href="#github" className="text-gray-300 font-[500] text-[18px]">
-                                    <i class="ri-github-fill"></i>
-                                </a>
-                            </span>
-                            <span className="w-[35px] rounded-[50px] cursor-pointer text-center">
-                                <a href="#facebook" className="text-gray-300 font-[500] text-[18px]">
-                                    <i class="ri-facebook-circle-line"></i>
-                                </a>
-                            </span>
-                            <span className="w-[35px] rounded-[50px] cursor-pointer text-center">
-                                <a href="#instagram" className="text-gray-300 font-[500] text-[18px]">
+                            <span>
+                                <a href="https://www.instagram.com/ucarmyrotc/" className="text-white text-[15px] font-[600]">
                                     <i class="ri-instagram-line"></i>
+                                </a>
+                            </span>
+                            <span>
+                                <a href="https://www.facebook.com/UCArmyROTC/" className="text-white text-[15px] font-[600]">
+                                    <i class="ri-facebook-fill"></i>
                                 </a>
                             </span>
                         </div>
                     </div>
-                </div>
-
-                <div>
-                    <ul className="flex items-center justify-center gap-10 p-3">
-                        {/* <li>
-                            <a className="text-gray-400 font-[600]" href="#about">About</a>
-                        </li> */}
-                        <li>
-                            <a className="text-gray-400 font-[600]" href="#services">Timeline</a>
-                        </li>
-                        <li>
-                            <a className="text-gray-400 font-[600]" href="#portfolio">Branches</a>
-                        </li>
-                        <li>
-                            <a className="text-gray-400 font-[600]" href="#contact">Contact</a>
-                        </li>
-                    </ul>
                 </div>
             </div>
             {/* =========== footer bottom =========== */}

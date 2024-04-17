@@ -2,8 +2,6 @@ import { useEffect } from 'react';
 import Aos from 'aos';
 import About from "./About/About"
 import Home from "../src/Home/Home";
-import CadetResources from './Cadet Resources/CadetResources';
-import Newsletter from './Newsletter/Newsletter';
 import Branches from './components/Pages/BranchesPage';
 import Contact from './components/Pages/Contact';
 
@@ -27,8 +25,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/about" element={<About/>} />
-            <Route path="/cadetresources" element={<CadetResources/>} />
-            <Route path="/newsletter" element={<Newsletter/>} />
             <Route path="/branches" element={<Branches/>} />
             <Route path="/contact" element={<Contact/>} />
           </Routes>

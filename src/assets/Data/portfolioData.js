@@ -45,7 +45,7 @@ const portfolios = [
     title: "Armor",
     description:
       "Armor officers are responsible for tank and cavalry/forward reconnaissance operations on the battlefield. The role of an armor officer is to be a leader in operations specific to the armor branch and to lead others in many areas of combat operations.",
-    strengths: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    strengths: ["Mentally Tough", "Physically Fit", "COmmunicator", "Technologically Adept"],
     siteUrl: "https://www.goarmy.com/careers-and-jobs/career-match/ground-forces/tanks-machinery/19a-armor-officer.html",
   },
   {
@@ -76,7 +76,7 @@ const portfolios = [
     title: "Medical Service",
     description:
       "Medical service corps officers command the medical service corps that treats and helps the Soldiers and their families in a variety of areas: Behavioral Science, Health Administration, Laboratory Sciences, Optometry, Pharmacy, Podiatry, and Preventative Medicine.",
-    strengths: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    strengths: ["Project Manager", "Interdisciplinary", "Detail Focused", "Communicator"],
     siteUrl: "https://www.goarmy.com/careers-and-jobs/specialty-careers/health-care.html",
   },
   {
@@ -106,7 +106,7 @@ const portfolios = [
     title: "Engineer",
     description:
       "An engineer officer is responsible for providing full support to the wide range of engineering duties in the Army. They can help build structures, develop civil works programs and even provide combat support.",
-    strengths: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    strengths: ["Mentally Tough", "Verbal Reasoning", "Planning & Organizing", "Physically Fit"],
     siteUrl: "https://www.goarmy.com/careers-and-jobs/career-match/mechanics-engineering/design-develop/12a-engineer-officer.html#:~:text=As%20an%20Engineer%20Officer%2C%20you,to%20troops%20in%20the%20field.",
   },
   {
@@ -161,7 +161,7 @@ const portfolios = [
     title: "Adjutant General",
     description:
       "An adjutant general officer is responsible for providing personnel support that affects Soldiers’ overall welfare and well-being, while assisting commanders by accounting for and keeping Soldiers combat-ready.",
-    strengths: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    strengths: ["Communicator", "Detail-Focused", "Problem Solver", "Innovative"],
     siteUrl: "https://www.goarmy.com/careers-and-jobs/career-match/support-logistics/admin-financial-support/42b-human-resources-officer.html#:~:text=Job%20Overview&text=As%20a%20Human%20Resources%20Officer,services%20which%20impact%20Soldier%20careers.",
   },
   {
@@ -191,7 +191,7 @@ const portfolios = [
     title: "Cyber",
     description:
       "Cyber branch is a maneuver branch with the mission to conduct defensive and offensive cyberspace operations (DCO and OCO). Cyber is the only branch designed to directly engage threats within the cyberspace domain.",
-    strengths: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    strengths: ["Technologically Adept", "Logical/Analytical", "Problem Solver", "Innovative"],
     siteUrl: "https://www.goarmy.com/careers-and-jobs/career-match/signal-intelligence/locations-stats-frequencies/17a-cyber-warfare-officer.html",
   },
   {
@@ -201,7 +201,7 @@ const portfolios = [
     title: "Transportation",
     description:
       "The Transportation Corps is responsible for moving supplies, troops and equipment anywhere on the globe. During war, the Transportation Corps utilizes trucks, boats and airplanes to provide extremely fast support to the combat teams on the frontlines. Transportation officers are experts in the systems, vehicles and procedures of moving troops and supplies in the Army.",
-    strengths: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    strengths: ["Communicator", "Project Manager", "Multitasker", "Problem Solver"],
     siteUrl: "https://www.goarmy.com/careers-and-jobs/career-match/support-logistics/transportation-inventory/88a-transportation-officer.html",
   }
 ];
